@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "paypal/rest-api-sdk-php": "^1.13"
+    },
     "autoload": {
         "psr-4": {
             "Webnets\\Paypal\\": "src/"
