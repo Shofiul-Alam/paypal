@@ -1,0 +1,19 @@
+{
+    "name": "webnets/paypal",
+    "description": "An all in one paypal payment gateway solutions for Laravel 6.*",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Shofiul Alam",
+            "email": "shofiul@webnets.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webnets\\Paypal\\": "src/"
+        }
+    }
+}
