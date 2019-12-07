@@ -11,11 +11,18 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "paypal/rest-api-sdk-php": "^1.13"
+        "paypal/rest-api-sdk-php": "^1.14"
     },
     "autoload": {
         "psr-4": {
             "Webnets\\Paypal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webnets\\Paypal\\PaypalServiceProvider.php"
+            ]
         }
     }
 }
